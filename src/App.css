@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+body {
+  font-family: 'Allan', cursive;
+  font-size: 25px;
+  line-height: 1.4;
+  background-color: #233136;
+}
+
+#header{
+  background-color: #f6c492;
+  text-align: center;
+  padding: 10px;
+}
+
+/* parent of todolist */
+.container{
+  padding: 0 1rem;
+}
+
+/* checkbox in TodoItem */
+[type="checkbox"]{
+  height: 20px;
+  width: 20px;
+  float: left;
+}  
+
+/* trash icon */
+[type="image"]{
+  float: right;
+  border: none;
+  margin: auto;
+}
+
+/* form in Addtodo */
+form{
+  display: flex;
+  margin: auto;
+}
+
+/* for both text and button */
+input{
+  font: inherit;
+  padding:10px;
+  margin: 10px;
+}
+
+/* text box for task */
+#task-input{
+  flex: 10;
+  padding: 5px;
+}
+
+#colors{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* button to add tasks */
+#add-btn{
+  display : inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  flex: 1;
+  padding: 7px 20px;
+  cursor: pointer;
+}  
+
+#add-btn:hover{
+  background: #222;
+}
