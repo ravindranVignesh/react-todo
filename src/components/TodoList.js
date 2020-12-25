@@ -4,26 +4,20 @@ import TodoItem from './TodoItem';
 
 class TodoList extends Component {
   state = {
-    lastID : 4,
+    lastID : 3,
     todos: [
       {
         id: 1,
-        title: "Play Cod",
-        priority: 'normal',
+        title: "Code something",
+        priority: 'high',
         completed : false
       },
       {
         id: 2,
-        title: "Code something",
+        title: "Learn react",
         priority: 'normal',
         completed : false
       },
-      {
-        id: 3,
-        title: "Study for CIA",
-        priority: 'normal',
-        completed : false
-      }
     ]
   }
   
